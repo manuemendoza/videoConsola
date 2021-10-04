@@ -1,0 +1,25 @@
+:root{
+    --joyLeft:rgb(255, 60, 40);
+    --joyRight:rgb(10, 185, 230);
+    --black: #000000;
+    -greyScren:#727272;
+    -greybutton:#3c3c3c;
+}
+html{
+    font-size: 62.5% ;
+}
+body{
+    font-size: 16px;
+}
+
+/* img {
+    width: 33rem;
+    height: 33rem;
+} */
+
+
+
+/*Global*/
+img {
+    border: 2rem black solid;
+}
