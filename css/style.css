@@ -164,10 +164,17 @@ body {
 
 .botones__boton {
     background-color: transparent;
+    border: none;
+    cursor: pointer;
     grid-column: 3 / 4;
 }
 
 .boton--pad {
+    background-color: var(--black);
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+    border-radius: 50%;
     grid-column: 1 / 4;
     grid-row: 2 / 4;
 }
@@ -194,4 +201,11 @@ body {
 .boton--encendido {
     grid-column: 3 / 4;
     grid-row: 7 / 8;
+}
+
+.joystick__up,
+.joystick__left,
+.joystick__right,
+.joystick__down {
+    width: 5rem;
 }
