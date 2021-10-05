@@ -4,10 +4,15 @@
     --black: #000000;
     --greyScren: #727272;
     --greybutton: #3c3c3c;
-}
+} 
 
 html {
     font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 body {
@@ -23,10 +28,7 @@ body {
 
 /*Global*/
 
-img {
-    border: 2rem black solid;
-}
-
+/*
 .conteiner {
     margin: 0 auto;
 }
@@ -41,16 +43,18 @@ img {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-}
+} */
 
 
 /*pantallas*/
-
 .screen {
+    border: 2rem black solid;
+}
+/* .screen {
     width: 70rem;
     height: 35rem;
     grid-column: 2/3;
-}
+} */
 
 
 /* @media (min-width: 768px) {
@@ -60,7 +64,7 @@ img {
     }
 } */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .screen {
         width: 86rem;
         height: 43rem;
@@ -72,7 +76,7 @@ img {
 
 /*JoyCons*/
 
-.joycon__tamaño {
+/* .joycon__tamaño {
     height: 46.8rem;
     width: 12.4rem;
 }
@@ -100,7 +104,7 @@ img {
     grid-column: 2/3;
     grid-row: 2/3;
 }
-
+/*
 @media (min-width: 768px) {
     .joycon__izq {
         grid-column: 1/2;
@@ -109,11 +113,11 @@ img {
     .joycon__dch {
         grid-column: 3/4;
         grid-row: 1/2;
-    }
+    } */
     /* .joycon__tamaño--center {
         height: 46.8rem;
         width: 12.4rem;
         background-color: var(--black);
         grid-row: 1/2;
-    } */
-}
+    } 
+} */
