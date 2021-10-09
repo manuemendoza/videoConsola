@@ -22,12 +22,6 @@ body {
 }
 
 
-/* img {
-    width: 33rem;
-    height: 33rem;
-} */
-
-
 /*Global*/
 
 .conteiner {
@@ -59,13 +53,8 @@ body {
 
 
 /*
-.displey__grid {
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-}
-
 @media (min-width: 768px) {
-    .displey__grid {
+    .grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
@@ -81,21 +70,6 @@ body {
 }
 
 
-/* .screen {
-    width: 97rem;
-    height: 58rem;
-    grid-column: 2/3;
-} */
-
-
-/* @media (min-width: 768px) {
-    .screen {
-        width: 20rem;
-        height: 10rem;
-    }
-} */
-
-
 /* @media (min-width: 768px) {
     .screen {
         width: 86rem;
@@ -104,7 +78,6 @@ body {
         grid-row: 1/2;
     }
 }
-
 
 /*JoyCons*/
 
@@ -126,7 +99,7 @@ body {
 }
 
 
-/*
+/* estos son los joycon rotos para responsive dising
 .joycon__tamaño--center {
     height: 46rem;
     display: flex;
@@ -138,10 +111,7 @@ body {
     margin: 0 auto;
     width: 13rem;
 }
-.*/
 
-
-/*
 @media (min-width: 768px) {
     .joycon__izq {
         grid-column: 1/2;
@@ -265,26 +235,23 @@ body {
     grid-row: 4 / 5;
 }
 
-
-/* .boton--encendido--left {
-    margin-left: .5rem;
-} */
-
 .boton__home,
-.encendido__img {
+.off__img {
     width: 3rem;
     padding: .1rem;
     background-color: var(--greybutton);
     border: .2rem var(--black) solid;
 }
 
+.on__img {
+    background-color: yellowgreen;
+}
+
 
 /*este codigo es opcional 
 .encendido__img {
     margin-right: 2rem;
-} */
-
-
-/*.boton__home{
+} 
+.boton__home{
     margin-left:2rem;
 }*/

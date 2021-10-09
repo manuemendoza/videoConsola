@@ -12,6 +12,7 @@
 
 <body>
     <div class="consola__todo">
+        <!--joycon Derecho-->
         <div class="joycon__tamaño no__margin no__padding joycon__izq botones">
             <button class="botones__boton boton__minus no__margin no__padding"><img src="img/bx-minus.png" alt="plus" class="minus--img"></button>
             <button class="botones__boton boton__pad no__padding"><div class="pad"></div></button>
@@ -21,14 +22,14 @@
                 <button class="botones__boton boton--flecha3"><img src="img/bxs-right-arrow-circle.png" alt="right" class="joystick__right"></button>
                 <button class="botones__boton boton--flecha4"><img src="img/bxs-down-arrow-circle.png" alt="down" class="joystick__down"></button>
             </div>
-            <button class="botones__boton boton--encendido"><img src="img/power-button.png" alt="boton enenctido" class="encendido__img" id="color" onclick="encender()"></button>
+            <button class="botones__boton boton--encendido"><img src="img/power-button.png" alt="boton enenctido" class="off__img" id="color" onclick="startStop();"></button>
         </div>
-        <!--tamaño del joycon ancho 600px alto 2070-->
+        <!--pantalla-->
         <div>
             <img src="img/Nintendo-Switch-imagen.jpg" alt="Pantalla" class="screen">
-            <!--alto 330,708px (9690,71px solo de la pantalla) ancho  562,204px (5775,12 px solo pantalla) con un borde en black-->
         </div>
-        <!-- <section class="joycon__tamaño--center"><img src="img/logoswitch.png" alt="Logo Nintendo" class="joycon__center--img"></section> -->
+        <!--utitilizar esto cuando metamos responsivedisign <section class="joycon__tamaño--center"><img src="img/logoswitch.png" alt="Logo Nintendo" class="joycon__center--img"></section> -->
+        <!--joycon izquierdo-->
         <div class="joycon__tamaño no__margin no__padding joycon__dch botones">
             <button class="botones__boton boton__plus no__margin no__padding"><img src="img/bx-plus.png" alt="plus" class="plus--img"></button>
             <div class="colocacion__joycon--flechas--left grid">
